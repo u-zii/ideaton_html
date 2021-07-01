@@ -9,12 +9,12 @@ body {
 }
 img {
     width: 100vw;
-    height: 700px;
+    height: 670px;
     z-index: 0;
 }
 .img_box {
     position: relative;
-    height: 100vw;
+    height: 670px;
 }
 .box {
     margin-bottom: -50px;
