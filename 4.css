@@ -55,13 +55,23 @@ body {
     align-items: center;
 }
 .footer {
-    height: 70px;
+    height: 55px;
     background-color: black;
     width: 100vw;
     bottom: 0;
     position: fixed;
     color: white;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.footer > :nth-child(1) {
+    margin-left: 20px;
+}
+.footer > :nth-child(3) {
+    margin-top: 5px;
+    margin-right: 20px;
 }
 .month {
     border-bottom: solid 1px rgb(230, 230, 230);
