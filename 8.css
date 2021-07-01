@@ -8,9 +8,20 @@ body {
     font-family: "apple";
 }
 .nav-bar {
-    height: 50px;
+    height: 30px;
     width: 100vw;
-    background-color: coral;
+    background-color: rgb(236, 232, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+.nav-bar > :nth-child(1) {
+    margin-left: 20px;
+}
+.nav-bar > :nth-child(3) {
+    margin-right: 20px;
+    width: 27px;
 }
 
 .main {

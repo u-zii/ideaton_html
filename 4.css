@@ -7,9 +7,19 @@ body {
     font-family: "apple";
 }
 .nav-bar {
-    height: 50px;
+    height: 30px;
     width: 100vw;
-    background-color: coral;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.nav-bar > :nth-child(1) {
+    margin-left: 20px;
+}
+.nav-bar > :nth-child(3) {
+    margin-right: 20px;
 }
 
 .main {
