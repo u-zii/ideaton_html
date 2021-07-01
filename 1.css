@@ -9,7 +9,7 @@ body {
 }
 img {
     width: 100vw;
-    height: 670px;
+    height: 700px;
     z-index: 0;
 }
 .img_box {
@@ -34,7 +34,7 @@ img {
     z-index: 1;
 }
 .login_box {
-    width: 330px;
+    width: 370px;
     background-color: black;
     border-radius: 25px;
     display: flex;
@@ -50,7 +50,7 @@ img {
     z-index: 1;
 }
 .signup_box {
-    width: 330px;
+    width: 370px;
     background-color: black;
     border-radius: 25px;
     display: flex;
