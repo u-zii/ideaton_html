@@ -295,6 +295,19 @@ a:hover {
     background-color: green;
     margin-top: 5px;
 }
+.blue_circle {
+    width: 5px;
+    height: 5px;
+    border: solid 1px blue;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 12.2px;
+}
+.blue_container {
+    padding-top: 5px;
+}
+
 .calendar_circle {
     margin-left: 12px;
 }
@@ -384,13 +397,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-input {
-    font-family: "apple";
-    font-size: 15px;
-}
-input:focus {
-    outline: none;
-}
 input::placeholder {
     color: black;
     font-family: "apple";
@@ -418,6 +424,9 @@ input::placeholder {
 }
 .save_schedule > div {
     margin-left: 0;
+}
+.save_schedule > :nth-child(1) > a {
+    color: rgb(190, 190, 190);
 }
 
 .add_schedule > :nth-child(1) > a {
@@ -490,7 +499,4 @@ p {
     display: inline-block;
     font-size: 15px;
     font-weight: bold;
-}
-.save_schedule > :nth-child(1) > a {
-    color: rgb(190, 190, 190);
 }

@@ -137,6 +137,18 @@ table {
 .odd {
     background-color: rgb(230, 230, 230);
 }
+.date_flex {
+    display: flex;
+    flex-direction: column;
+}
+.green_circle {
+    width: 5px;
+    height: 5px;
+    border: solid 1px green;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 5px;
+}
 input[id="cb1"] {
     display: none;
 }
